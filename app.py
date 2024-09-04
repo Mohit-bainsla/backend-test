@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, Response
 from flask_cors import CORS
 import instaloader
 import requests
+import os 
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS to allow requests from the React frontend
